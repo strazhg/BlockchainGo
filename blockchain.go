@@ -125,9 +125,9 @@ func (blockchain *Blockchain) getWalletBalance(address string) float64 {
 type Wallet struct {
 	TotalBalance float64
 	Address      string
-	Currency     Blockchain
+	Chain        Blockchain
 }
 
 func (wallet *Wallet) updateBalance() {
-	wallet.TotalBalance += wallet.Currency.getWalletBalance(wallet.Address)
+	wallet.TotalBalance += wallet.Chain.getWalletBalance(wallet.Address)
 }
