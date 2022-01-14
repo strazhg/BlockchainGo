@@ -1,4 +1,4 @@
-package Blockchain_Go
+package BlockchainGo
 
 import (
 	"crypto/sha256"
