@@ -1,3 +1,3 @@
-module github.com/Blockchain_Go
+module Blockchain_Go
 
 go 1.17
