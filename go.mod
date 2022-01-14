@@ -1,3 +1,3 @@
-module github.com/strazhg/Blockchain_Go
+module github.com/Blockchain_Go
 
 go 1.17
