@@ -1,3 +1,3 @@
-module Blockchain_Go
+module BlockchainGo
 
 go 1.17
